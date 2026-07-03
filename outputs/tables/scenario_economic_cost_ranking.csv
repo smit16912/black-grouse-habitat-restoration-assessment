@@ -1,0 +1,5 @@
+rank_lowest_cost,scenario,restored_area_ha,brp_coverage_percent,annual_output_displaced_euro,output_displaced_per_restored_ha_euro
+1,Patch enlargement,1165.56,77.75,1569796.56,1346.81
+2,Dispersed,1165.56,87.68,1847400.57,1584.99
+3,Integrated,1165.56,92.32,2246921.42,1927.76
+4,Connectivity focused,1165.56,84.87,2252302.79,1932.37

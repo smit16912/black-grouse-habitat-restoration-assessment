@@ -1,0 +1,5 @@
+scenario,restored_pixels,restored_area_ha,brp_overlap_area_ha,area_without_brp_ha,brp_coverage_percent,affected_brp_features,brp_covered_area_ha,annual_standard_output_euro,crop_classes,annual_output_per_restored_ha_euro,annual_output_per_brp_ha_euro
+Dispersed,18649,1165.56,1021.96,143.6,87.68,18032,1021.96,1847400.57,121,1584.99,1807.7
+Patch enlargement,18649,1165.56,906.19,259.37,77.75,7564,906.19,1569796.56,93,1346.81,1732.3
+Connectivity focused,18649,1165.56,989.19,176.37,84.87,1977,989.19,2252302.79,58,1932.37,2276.91
+Integrated,18649,1165.56,1075.99,89.57,92.32,2522,1075.99,2246921.42,66,1927.76,2088.24

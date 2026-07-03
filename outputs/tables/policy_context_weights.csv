@@ -1,0 +1,4 @@
+policy_context,ecological_score,economic_score,social_access_score,low_disturbance_score
+Nature priority,0.55,0.1,0.1,0.25
+Multifunctional,0.35,0.25,0.25,0.15
+Production oriented,0.2,0.5,0.2,0.1

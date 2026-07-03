@@ -1,0 +1,339 @@
+scenario,category,gewas,gewascode,affected_area_ha,affected_features,so_euro_per_ha_year,coefficient_source,annual_standard_output_euro,coefficient_mapped,coefficient_method
+Connectivity focused,Grasland,"Grasland, blijvend ",265,388.705,575,1250.0,WUR SO-2020,485881.25,True,Direct crop match
+Connectivity focused,Bouwland,"Mais, snij-",259,186.2526,179,1800.0,WUR SO-2020,335254.68,True,Direct crop match
+Connectivity focused,Grasland,"Grasland, tijdelijk ",266,160.377,145,1250.0,WUR SO-2020,200471.25,True,Direct crop match
+Connectivity focused,Bouwland,"Aardappelen, consumptie",2014,38.9961,6,8620.0,WUR SO-2020,336146.38,True,Direct crop match
+Connectivity focused,Bouwland,"Aardappelen, zetmeel ",2017,38.9824,12,4030.0,WUR SO-2020,157099.07,True,Direct crop match
+Connectivity focused,Bouwland,"Rogge, korrelgewas",7130,34.6314,21,1160.0,WUR SO-2020,40172.42,True,Direct crop match
+Connectivity focused,Bouwland,"Mais, korrel-",316,16.4558,16,1680.0,WUR SO-2020,27645.74,True,Direct crop match
+Connectivity focused,Bouwland,"Uien, gele zaai-",6660,14.4451,9,8100.0,WUR SO-2020,117005.31,True,Direct crop match
+Connectivity focused,Bouwland,"Bieten, suiker-",256,11.086,4,3440.0,WUR SO-2020,38135.84,True,Direct crop match
+Connectivity focused,Bouwland,"Aardappelen, poot NAK",2015,7.94,5,11700.0,WUR SO-2020,92898.0,True,Direct crop match
+Connectivity focused,Grasland,"Grasland, natuurlijk. Met landbouwactiviteiten. ",331,7.4456,162,374.0,WUR SO-2020,2784.65,True,Direct crop match
+Connectivity focused,Landschapselement,Sloot,343,7.0939,405,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Connectivity focused,Bouwland,"Tarwe, winter-",233,6.9311,2,2390.0,WUR SO-2020,16565.33,False,Direct crop match
+Connectivity focused,Bouwland,Luzerne ,258,6.5088,2,1050.0,WUR SO-2020,6834.24,True,Direct crop match
+Connectivity focused,Bouwland,"Gerst, zomer-",236,6.1079,4,1530.0,WUR SO-2020,9345.09,False,Direct crop match
+Connectivity focused,Bouwland,"Uien, rode zaai-",6664,6.0585,1,8100.0,WUR SO-2020,49073.85,True,Direct crop match
+Connectivity focused,Landschapselement,Houtwal en houtsingel,2621,4.2131,131,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Connectivity focused,Bouwland,"Lelie, overige bloemkwekerijgewassen",979,3.6816,2,36000.0,Proxy: lily production,132537.6,False,Related-crop proxy
+Connectivity focused,Bouwland,"Lelie, bloembollen en -knollen",1002,3.2381,3,36000.0,WUR SO-2020,116571.6,True,Direct crop match
+Connectivity focused,Natuurterrein,Natuurterreinen (incl. heide),335,3.1368,89,0.0,Non-productive land assumption,0.0,False,Zero-output class
+Connectivity focused,Bouwland,"Granen, overig",2652,3.1134,4,1530.0,Proxy: summer barley,4763.5,False,Related-crop proxy
+Connectivity focused,Bouwland,Zoete aardappelen ,6632,3.0004,1,8620.0,Proxy: consumption potatoes,25863.45,False,Related-crop proxy
+Connectivity focused,Bouwland,Zonnekroon,656,2.7842,2,1800.0,Area-weighted median proxy for Bouwland,5011.56,False,Category-median proxy
+Connectivity focused,Bouwland,"Gerst, winter-",235,2.7287,1,1950.0,WUR SO-2020,5320.96,False,Direct crop match
+Connectivity focused,Bouwland,"Italiaans raaigras, groenbemesting, vanggewas",6755,2.7033,8,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Connectivity focused,Bouwland,"Uien, poot en plant, 1e jaars ",1932,2.5766,3,8100.0,Proxy: field onions,20870.46,False,Related-crop proxy
+Connectivity focused,Bouwland,Miscanthus (olifantsgras) ,516,2.4257,5,1170.0,Proxy: energy maize,2838.07,False,Related-crop proxy
+Connectivity focused,Bouwland,"Mais, corncob mix ",317,2.4234,1,1430.0,WUR SO-2020,3465.46,True,Direct crop match
+Connectivity focused,Bouwland,Triticale ,314,2.0109,2,1280.0,WUR SO-2020,2573.95,True,Direct crop match
+Connectivity focused,Bouwland,"Groene braak, spontane opkomst",6794,2.0052,34,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Connectivity focused,Bouwland,Soedangras/Sorghum,3519,1.7447,5,1800.0,Proxy: forage maize,3140.46,False,Related-crop proxy
+Connectivity focused,Bouwland,Haver ,238,1.5764,1,1630.0,WUR SO-2020,2569.53,True,Direct crop match
+Connectivity focused,Bouwland,"Bonen, veld- (onder andere duiven-, paarden-, wierbonen) ",311,1.1535,3,1800.0,Area-weighted median proxy for Bouwland,2076.3,False,Category-median proxy
+Connectivity focused,Bouwland,"Bieten, voeder-",257,1.0915,2,1800.0,Proxy: forage maize,1964.7,False,Related-crop proxy
+Connectivity focused,Grasland,Agrarisch natuurmengsel,1926,0.9613,25,4360.0,WUR SO-2020,4191.27,True,Direct crop match
+Connectivity focused,Bouwland,Kerstbomen,796,0.8009,1,1800.0,Area-weighted median proxy for Bouwland,1441.62,False,Category-median proxy
+Connectivity focused,Bouwland,Erwten (droog te oogsten),308,0.4161,3,1800.0,Area-weighted median proxy for Bouwland,748.98,False,Category-median proxy
+Connectivity focused,Landschapselement,Bosje,2642,0.4109,11,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Connectivity focused,Overige,"Bos, blijvend, met herplantplicht ",1936,0.3781,8,0.0,Non-productive land assumption,0.0,False,Zero-output class
+Connectivity focused,Landschapselement,Bossingel ,2619,0.3203,13,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Connectivity focused,Bouwland,"Bonen, tuin- (groen te oogsten) ",854,0.2924,1,1800.0,Area-weighted median proxy for Bouwland,526.32,False,Category-median proxy
+Connectivity focused,Landschapselement,Poel en klein historisch water,2620,0.2882,9,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Connectivity focused,Grasland,"Grasland, natuurlijk. Hoofdfunctie natuur.",332,0.2403,4,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Connectivity focused,Landschapselement,Stroken wild gras,6807,0.2345,11,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Connectivity focused,Landschapselement,Boomgroep,2617,0.2264,12,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Connectivity focused,Landschapselement,Struweelrand,2629,0.1729,4,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Connectivity focused,Landschapselement,Hakhoutbosje,2630,0.1512,2,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Connectivity focused,Landschapselement,"Landschapselement, overig",2638,0.133,3,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Connectivity focused,Bouwland,"Klaver, rode, klaverzaad",6763,0.1201,2,1800.0,Area-weighted median proxy for Bouwland,216.18,False,Category-median proxy
+Connectivity focused,Landschapselement,Struweelhaag,2625,0.0806,2,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Connectivity focused,Landschapselement,Elzensingel,2622,0.0738,7,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Connectivity focused,Bouwland,"Aardbeien open grond, productie",2702,0.0644,1,1800.0,Area-weighted median proxy for Bouwland,115.92,False,Category-median proxy
+Connectivity focused,Bouwland,"Overige bloemen, overige bloemkwekerijgewassen",991,0.0591,1,1800.0,Area-weighted median proxy for Bouwland,106.38,False,Category-median proxy
+Connectivity focused,Landschapselement,Ruigtes op landbouwpercelen,6800,0.0477,5,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Connectivity focused,Bouwland,Bos zonder herplantplicht ,863,0.0419,4,1800.0,Area-weighted median proxy for Bouwland,75.42,False,Category-median proxy
+Connectivity focused,Landschapselement,Schouwpad,6801,0.0254,1,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Connectivity focused,Landschapselement,Laan,2626,0.0243,1,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Connectivity focused,Landschapselement,Natuurvriendelijke oever,2634,0.004,1,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Grasland,"Grasland, blijvend ",265,546.9045,8001,1250.0,WUR SO-2020,683630.62,True,Direct crop match
+Dispersed,Bouwland,"Mais, snij-",259,186.4051,2422,1800.0,WUR SO-2020,335529.18,True,Direct crop match
+Dispersed,Grasland,"Grasland, tijdelijk ",266,173.4567,2413,1250.0,WUR SO-2020,216820.88,True,Direct crop match
+Dispersed,Bouwland,"Aardappelen, zetmeel ",2017,10.1523,98,4030.0,WUR SO-2020,40913.77,True,Direct crop match
+Dispersed,Bouwland,"Aardappelen, consumptie",2014,10.0373,96,8620.0,WUR SO-2020,86521.53,True,Direct crop match
+Dispersed,Landschapselement,Sloot,343,9.8816,2661,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Bouwland,"Lelie, bloembollen en -knollen",1002,7.6717,67,36000.0,WUR SO-2020,276181.2,True,Direct crop match
+Dispersed,Bouwland,"Bieten, suiker-",256,7.5981,58,3440.0,WUR SO-2020,26137.46,True,Direct crop match
+Dispersed,Bouwland,"Mais, corncob mix ",317,7.0442,70,1430.0,WUR SO-2020,10073.21,True,Direct crop match
+Dispersed,Landschapselement,Houtwal en houtsingel,2621,5.1185,680,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Bouwland,"Mais, korrel-",316,4.5326,62,1680.0,WUR SO-2020,7614.77,True,Direct crop match
+Dispersed,Bouwland,"Gerst, zomer-",236,3.9539,49,1530.0,WUR SO-2020,6049.47,False,Direct crop match
+Dispersed,Bouwland,"Uien, gele zaai-",6660,3.8115,31,8100.0,WUR SO-2020,30873.15,True,Direct crop match
+Dispersed,Bouwland,"Gerst, winter-",235,3.6244,46,1950.0,WUR SO-2020,7067.58,False,Direct crop match
+Dispersed,Bouwland,"Tarwe, zomer-",234,3.4116,45,1810.0,WUR SO-2020,6175.0,False,Direct crop match
+Dispersed,Bouwland,"Aardappelen, poot NAK",2015,3.3519,29,11700.0,WUR SO-2020,39217.23,True,Direct crop match
+Dispersed,Bouwland,"Tarwe, winter-",233,2.5958,29,2390.0,WUR SO-2020,6203.96,False,Direct crop match
+Dispersed,Bouwland,"Uien, poot en plant, 1e jaars ",1932,2.3658,17,8100.0,Proxy: field onions,19162.98,False,Related-crop proxy
+Dispersed,Bouwland,Luzerne ,258,2.2462,37,1050.0,WUR SO-2020,2358.51,True,Direct crop match
+Dispersed,Bouwland,"Rogge, korrelgewas",7130,2.2219,30,1160.0,WUR SO-2020,2577.4,True,Direct crop match
+Dispersed,Bouwland,Triticale ,314,1.7609,16,1280.0,WUR SO-2020,2253.95,True,Direct crop match
+Dispersed,Bouwland,Sedum,6802,1.5664,10,1800.0,Area-weighted median proxy for Bouwland,2819.52,False,Category-median proxy
+Dispersed,Bouwland,"Bieten, voeder-",257,1.3101,18,1800.0,Proxy: forage maize,2358.18,False,Related-crop proxy
+Dispersed,Bouwland,Soedangras/Sorghum,3519,1.2018,14,1800.0,Proxy: forage maize,2163.24,False,Related-crop proxy
+Dispersed,Bouwland,"Vaste planten, open grond",1080,1.1323,6,1800.0,Area-weighted median proxy for Bouwland,2038.14,False,Category-median proxy
+Dispersed,Bouwland,"Italiaans raaigras, groenbemesting, vanggewas",6755,1.0017,22,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Dispersed,Bouwland,"Groene braak, spontane opkomst",6794,0.9428,129,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Dispersed,Grasland,"Grasland, natuurlijk. Met landbouwactiviteiten. ",331,0.8801,117,374.0,WUR SO-2020,329.16,True,Direct crop match
+Dispersed,Bouwland,"Italiaans raaigras, graszaad",6754,0.8535,8,1050.0,Proxy: forage crop,896.18,False,Related-crop proxy
+Dispersed,Bouwland,"Hennep, vezel-",944,0.7999,8,1800.0,Area-weighted median proxy for Bouwland,1439.82,False,Category-median proxy
+Dispersed,Bouwland,"Uien, rode zaai-",6664,0.7697,7,8100.0,WUR SO-2020,6234.57,True,Direct crop match
+Dispersed,Grasland,Agrarisch natuurmengsel,1926,0.7441,95,4360.0,WUR SO-2020,3244.28,True,Direct crop match
+Dispersed,Landschapselement,Bosje,2642,0.7385,74,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Natuurterrein,Natuurterreinen (incl. heide),335,0.548,55,0.0,Non-productive land assumption,0.0,False,Zero-output class
+Dispersed,Bouwland,"Granen, overig",2652,0.5057,12,1530.0,Proxy: summer barley,773.72,False,Related-crop proxy
+Dispersed,Bouwland,"Pioenroos, vermeerdering",1054,0.484,4,1800.0,Area-weighted median proxy for Bouwland,871.2,False,Category-median proxy
+Dispersed,Bouwland,Haver ,238,0.4459,7,1630.0,WUR SO-2020,726.82,True,Direct crop match
+Dispersed,Bouwland,Graszoden ,1921,0.4358,7,1800.0,Area-weighted median proxy for Bouwland,784.44,False,Category-median proxy
+Dispersed,Bouwland,"Valeriaan, productie",1019,0.4339,3,1800.0,Area-weighted median proxy for Bouwland,781.02,False,Category-median proxy
+Dispersed,Bouwland,Erwten (droog te oogsten),308,0.4224,6,1800.0,Area-weighted median proxy for Bouwland,760.32,False,Category-median proxy
+Dispersed,Bouwland,"Aardappelen, poot TBM",2016,0.4032,5,6000.0,WUR SO-2020,2419.2,True,Direct crop match
+Dispersed,Bouwland,"Gladiool, bloembollen en - knollen",998,0.3865,3,1800.0,Area-weighted median proxy for Bouwland,695.7,False,Category-median proxy
+Dispersed,Bouwland,Maiskolvensilage,1935,0.3547,6,1800.0,Area-weighted median proxy for Bouwland,638.46,False,Category-median proxy
+Dispersed,Bouwland,"Sierheesters en klimplanten, open grond",1075,0.3218,7,1800.0,Area-weighted median proxy for Bouwland,579.24,False,Category-median proxy
+Dispersed,Bouwland,"Bonen, veld- (onder andere duiven-, paarden-, wierbonen) ",311,0.3198,5,1800.0,Area-weighted median proxy for Bouwland,575.64,False,Category-median proxy
+Dispersed,Bouwland,"Winterpeen, productie",2785,0.3071,3,1800.0,Area-weighted median proxy for Bouwland,552.78,False,Category-median proxy
+Dispersed,Landschapselement,Stroken wild gras,6807,0.3035,64,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Landschapselement,"Landschapselement, overig",2638,0.2813,37,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Bouwland,"Erwten, groene/gele (groen te oogsten)",244,0.2674,1,1800.0,Area-weighted median proxy for Bouwland,481.32,False,Category-median proxy
+Dispersed,Overige,"Bos, blijvend, met herplantplicht ",1936,0.26,20,0.0,Non-productive land assumption,0.0,False,Zero-output class
+Dispersed,Landschapselement,Bossingel ,2619,0.2478,26,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Landschapselement,Struweelrand,2629,0.2455,29,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Landschapselement,Struweelhaag,2625,0.2448,29,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Bouwland,"Bos- en haagplanten, open grond",1067,0.2313,3,1800.0,Area-weighted median proxy for Bouwland,416.34,False,Category-median proxy
+Dispersed,Bouwland,"Stoksnijbonen en stokslabonen, productie",2781,0.2266,6,1800.0,Area-weighted median proxy for Bouwland,407.88,False,Category-median proxy
+Dispersed,Bouwland,Miscanthus (olifantsgras) ,516,0.2236,6,1170.0,Proxy: energy maize,261.61,False,Related-crop proxy
+Dispersed,Bouwland,"Laanbomen/parkbomen, opzetters, open grond",1071,0.2087,3,1800.0,Area-weighted median proxy for Bouwland,375.66,False,Category-median proxy
+Dispersed,Landschapselement,Boomgroep,2617,0.1853,21,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Bouwland,Spelt,382,0.1848,2,1350.0,WUR SO-2020,249.48,True,Direct crop match
+Dispersed,Bouwland,"Sierconiferen, open grond",1074,0.1709,5,1800.0,Area-weighted median proxy for Bouwland,307.62,False,Category-median proxy
+Dispersed,Bouwland,"Klaver, rode, klaverzaad",6763,0.1452,3,1800.0,Area-weighted median proxy for Bouwland,261.36,False,Category-median proxy
+Dispersed,Bouwland,Japanse haver,670,0.1386,2,1630.0,WUR SO-2020,225.92,True,Direct crop match
+Dispersed,Bouwland,"Mais, energie-",2032,0.1371,1,1170.0,WUR SO-2020,160.41,True,Direct crop match
+Dispersed,Bouwland,"Koolraap, productie",2737,0.1238,1,1800.0,Area-weighted median proxy for Bouwland,222.84,False,Category-median proxy
+Dispersed,Bouwland,"Aardbeien op stellingen, productie",2706,0.1235,3,1800.0,Area-weighted median proxy for Bouwland,222.3,False,Category-median proxy
+Dispersed,Bouwland,"Aardappelen, bestrijdingsmaatregel AM ",2025,0.1176,2,1800.0,Area-weighted median proxy for Bouwland,211.68,False,Category-median proxy
+Dispersed,Bouwland,"Klaver, rode, groenbemesting, vanggewas",6762,0.1152,8,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Dispersed,Bouwland,Overige akkerbouwgewassen,1927,0.1147,1,1800.0,Area-weighted median proxy for Bouwland,206.46,False,Category-median proxy
+Dispersed,Landschapselement,Hoogstamboomgaard,2628,0.1139,3,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Bouwland,"Lelie, overige bloemkwekerijgewassen",979,0.1113,1,36000.0,Proxy: lily production,4006.8,False,Related-crop proxy
+Dispersed,Landschapselement,Schouwpad,6801,0.1061,20,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Bouwland,Bos zonder herplantplicht ,863,0.0989,6,1800.0,Area-weighted median proxy for Bouwland,178.02,False,Category-median proxy
+Dispersed,Landschapselement,Poel en klein historisch water,2620,0.0908,13,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Bouwland,"Festulolium, graszaad",6752,0.0875,1,1800.0,Area-weighted median proxy for Bouwland,157.5,False,Category-median proxy
+Dispersed,Bouwland,Wijndruiven,1099,0.0848,2,1800.0,Area-weighted median proxy for Bouwland,152.64,False,Category-median proxy
+Dispersed,Bouwland,Appels. Aangeplant voorafgaande aan lopende seizoen.,1096,0.0835,3,1800.0,Area-weighted median proxy for Bouwland,150.3,False,Category-median proxy
+Dispersed,Landschapselement,Knip- of scheerheg,2624,0.0765,19,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Bouwland,Drachtplanten,657,0.0705,3,1800.0,Area-weighted median proxy for Bouwland,126.9,False,Category-median proxy
+Dispersed,Landschapselement,Natuurvriendelijke oever,2634,0.065,10,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Bouwland,"Koolzaad, winter (incl. boterzaad) ",1922,0.0625,1,1800.0,Area-weighted median proxy for Bouwland,112.5,False,Category-median proxy
+Dispersed,Bouwland,"Pompoen, productie",2735,0.0625,1,1800.0,Area-weighted median proxy for Bouwland,112.5,False,Category-median proxy
+Dispersed,Bouwland,"Vaste planten, pot- en containerteelt",1094,0.0625,1,1800.0,Area-weighted median proxy for Bouwland,112.5,False,Category-median proxy
+Dispersed,Bouwland,Cichorei ,511,0.06,1,1800.0,Area-weighted median proxy for Bouwland,108.0,False,Category-median proxy
+Dispersed,Bouwland,Zonnebloemen ,515,0.0596,1,1800.0,Area-weighted median proxy for Bouwland,107.28,False,Category-median proxy
+Dispersed,Bouwland,Kerstbomen,796,0.0563,2,1800.0,Area-weighted median proxy for Bouwland,101.34,False,Category-median proxy
+Dispersed,Bouwland,"Laanbomen/parkbomen, onderstammen, open grond",1070,0.0525,1,1800.0,Area-weighted median proxy for Bouwland,94.5,False,Category-median proxy
+Dispersed,Bouwland,"Vruchtbomen, overig, open grond",1079,0.0488,2,1800.0,Area-weighted median proxy for Bouwland,87.84,False,Category-median proxy
+Dispersed,Bouwland,Tagetes patula (Afrikaantje),347,0.0439,1,1800.0,Area-weighted median proxy for Bouwland,79.02,False,Category-median proxy
+Dispersed,Landschapselement,Ruigtes op landbouwpercelen,6800,0.0432,10,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Bouwland,"Asperges, oppervlakte die productie oplevert",2710,0.0424,1,1800.0,Area-weighted median proxy for Bouwland,76.32,False,Category-median proxy
+Dispersed,Bouwland,"Buxus, open grond",1068,0.0408,1,1800.0,Area-weighted median proxy for Bouwland,73.44,False,Category-median proxy
+Dispersed,Landschapselement,"Water, overig",2639,0.0405,6,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Bouwland,"Knolvenkel/venkel, productie",2727,0.04,1,1800.0,Area-weighted median proxy for Bouwland,72.0,False,Category-median proxy
+Dispersed,Landschapselement,Hakhoutbosje,2630,0.0375,6,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Landschapselement,Laan,2626,0.0355,5,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Bouwland,"Wikke, voeder-",803,0.0351,1,1050.0,Proxy: forage crop,36.85,False,Related-crop proxy
+Dispersed,Grasland,"Grasland, natuurlijk. Hoofdfunctie natuur.",332,0.034,4,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Dispersed,Bouwland,Tagetes erecta (Afrikaantje),346,0.0338,2,1800.0,Area-weighted median proxy for Bouwland,60.84,False,Category-median proxy
+Dispersed,Bouwland,"Asperges, zaden en opkweekmateriaal",2712,0.0325,1,1800.0,Area-weighted median proxy for Bouwland,58.5,False,Category-median proxy
+Dispersed,Bouwland,"Overige niet genoemde groenten, productie",2793,0.0296,2,1800.0,Area-weighted median proxy for Bouwland,53.28,False,Category-median proxy
+Dispersed,Braakland,"Tijdelijk onbeteelde grond, anders dan voor publieke werken",3802,0.0296,1,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Dispersed,Bouwland,"Bonen, tuin- (groen te oogsten) ",854,0.023,1,1800.0,Area-weighted median proxy for Bouwland,41.4,False,Category-median proxy
+Dispersed,Bouwland,"Spinazie, zaden en opkweekmateriaal",2774,0.023,1,1800.0,Area-weighted median proxy for Bouwland,41.4,False,Category-median proxy
+Dispersed,Overige,Wilgenhakhout,795,0.02,2,0.0,Area-weighted median proxy for Overige,0.0,False,Category-median proxy
+Dispersed,Bouwland,"Pioenroos, overige bloemkwekerijgewassen",1025,0.0185,1,1800.0,Area-weighted median proxy for Bouwland,33.3,False,Category-median proxy
+Dispersed,Bouwland,Peren. Aangeplant voorafgaande aan lopende seizoen.,1098,0.0177,1,1800.0,Area-weighted median proxy for Bouwland,31.86,False,Category-median proxy
+Dispersed,Landschapselement,Elzensingel,2622,0.015,6,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Bouwland,"Overige groenbemesters, vlinderbloemige- ",426,0.0147,7,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Dispersed,Landschapselement,"Windhaag, in een perceel fruitteelt",2618,0.0139,2,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Overige,Voedselbos,1940,0.0136,1,0.0,Non-productive land assumption,0.0,False,Zero-output class
+Dispersed,Bouwland,"Overige gras, groenbemesting, vanggewas",7126,0.0116,2,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Dispersed,Bouwland,Gele mosterd,428,0.011,1,1800.0,Area-weighted median proxy for Bouwland,19.8,False,Category-median proxy
+Dispersed,Overige,"Rand, liggend op bouwland en direct grenzend aan bos. Geen landbouwproductie.",338,0.0082,1,0.0,Non-productive land assumption,0.0,False,Zero-output class
+Dispersed,Bouwland,"Mais, suiker-",814,0.0073,1,1800.0,Area-weighted median proxy for Bouwland,13.14,False,Category-median proxy
+Dispersed,Bouwland,"Knolselderij, productie",2725,0.0071,1,1800.0,Area-weighted median proxy for Bouwland,12.78,False,Category-median proxy
+Dispersed,Landschapselement,Voederhaag,6809,0.0068,3,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Bouwland,Bloemzaden open grond,174,0.0066,1,1800.0,Area-weighted median proxy for Bouwland,11.88,False,Category-median proxy
+Dispersed,Landschapselement,Rietkraag/rietzoom,7128,0.006,3,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Dispersed,Bouwland,Appels. Aangeplant lopende seizoen.,1095,0.0045,1,1800.0,Area-weighted median proxy for Bouwland,8.1,False,Category-median proxy
+Dispersed,Bouwland,"Asperges, oppervlakte die nog geen productie oplevert",2711,0.0041,1,1800.0,Area-weighted median proxy for Bouwland,7.38,False,Category-median proxy
+Dispersed,Bouwland,Zonnekroon,656,0.0035,1,1800.0,Area-weighted median proxy for Bouwland,6.3,False,Category-median proxy
+Integrated,Grasland,"Grasland, blijvend ",265,484.8632,748,1250.0,WUR SO-2020,606079.0,True,Direct crop match
+Integrated,Bouwland,"Mais, snij-",259,215.2919,255,1800.0,WUR SO-2020,387525.42,True,Direct crop match
+Integrated,Grasland,"Grasland, tijdelijk ",266,162.1187,215,1250.0,WUR SO-2020,202648.38,True,Direct crop match
+Integrated,Bouwland,"Rogge, korrelgewas",7130,30.468,23,1160.0,WUR SO-2020,35342.88,True,Direct crop match
+Integrated,Bouwland,"Aardappelen, zetmeel ",2017,25.2192,12,4030.0,WUR SO-2020,101633.38,True,Direct crop match
+Integrated,Bouwland,"Aardappelen, consumptie",2014,18.6768,14,8620.0,WUR SO-2020,160994.02,True,Direct crop match
+Integrated,Bouwland,"Uien, gele zaai-",6660,12.7641,6,8100.0,WUR SO-2020,103389.21,True,Direct crop match
+Integrated,Landschapselement,Sloot,343,10.1102,534,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Integrated,Bouwland,"Bieten, suiker-",256,9.235,3,3440.0,WUR SO-2020,31768.4,True,Direct crop match
+Integrated,Bouwland,"Mais, korrel-",316,8.7838,11,1680.0,WUR SO-2020,14756.78,True,Direct crop match
+Integrated,Bouwland,"Aardappelen, poot NAK",2015,8.6101,4,11700.0,WUR SO-2020,100738.17,True,Direct crop match
+Integrated,Grasland,"Grasland, natuurlijk. Met landbouwactiviteiten. ",331,7.6617,177,374.0,WUR SO-2020,2865.48,True,Direct crop match
+Integrated,Bouwland,Luzerne ,258,6.9042,2,1050.0,WUR SO-2020,7249.41,True,Direct crop match
+Integrated,Bouwland,"Mais, corncob mix ",317,6.8091,4,1430.0,WUR SO-2020,9737.01,True,Direct crop match
+Integrated,Bouwland,Zoete aardappelen ,6632,5.1147,1,8620.0,Proxy: consumption potatoes,44088.71,False,Related-crop proxy
+Integrated,Bouwland,"Lelie, bloembollen en -knollen",1002,4.9673,4,36000.0,WUR SO-2020,178822.8,True,Direct crop match
+Integrated,Landschapselement,Houtwal en houtsingel,2621,4.7222,150,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Integrated,Bouwland,"Valeriaan, productie",1019,4.6434,1,1800.0,Area-weighted median proxy for Bouwland,8358.12,False,Category-median proxy
+Integrated,Bouwland,"Uien, rode zaai-",6664,4.5887,2,8100.0,WUR SO-2020,37168.47,True,Direct crop match
+Integrated,Bouwland,"Lelie, overige bloemkwekerijgewassen",979,4.3322,2,36000.0,Proxy: lily production,155959.2,False,Related-crop proxy
+Integrated,Bouwland,"Gerst, zomer-",236,3.6891,5,1530.0,WUR SO-2020,5644.32,False,Direct crop match
+Integrated,Bouwland,Erwten (droog te oogsten),308,3.363,6,1800.0,Area-weighted median proxy for Bouwland,6053.4,False,Category-median proxy
+Integrated,Bouwland,"Tarwe, winter-",233,3.3172,2,2390.0,WUR SO-2020,7928.11,False,Direct crop match
+Integrated,Natuurterrein,Natuurterreinen (incl. heide),335,2.7106,97,0.0,Non-productive land assumption,0.0,False,Zero-output class
+Integrated,Bouwland,"Italiaans raaigras, groenbemesting, vanggewas",6755,2.5827,7,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Integrated,Bouwland,"Gerst, winter-",235,2.247,1,1950.0,WUR SO-2020,4381.65,False,Direct crop match
+Integrated,Bouwland,"Groene braak, spontane opkomst",6794,1.8799,47,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Integrated,Bouwland,Miscanthus (olifantsgras) ,516,1.7824,4,1170.0,Proxy: energy maize,2085.41,False,Related-crop proxy
+Integrated,Bouwland,Zonnekroon,656,1.7532,2,1800.0,Area-weighted median proxy for Bouwland,3155.76,False,Category-median proxy
+Integrated,Bouwland,"Granen, overig",2652,1.7467,5,1530.0,Proxy: summer barley,2672.45,False,Related-crop proxy
+Integrated,Grasland,Agrarisch natuurmengsel,1926,1.5827,33,4360.0,WUR SO-2020,6900.57,True,Direct crop match
+Integrated,Bouwland,"Winterpeen, productie",2785,1.4118,1,1800.0,Area-weighted median proxy for Bouwland,2541.24,False,Category-median proxy
+Integrated,Bouwland,"Bieten, voeder-",257,1.3561,3,1800.0,Proxy: forage maize,2440.98,False,Related-crop proxy
+Integrated,Bouwland,Triticale ,314,1.2216,2,1280.0,WUR SO-2020,1563.65,True,Direct crop match
+Integrated,Bouwland,"Hennep, vezel-",944,1.0699,1,1800.0,Area-weighted median proxy for Bouwland,1925.82,False,Category-median proxy
+Integrated,Bouwland,"Aardappelen, poot TBM",2016,1.0129,1,6000.0,WUR SO-2020,6077.4,True,Direct crop match
+Integrated,Overige,"Bos, blijvend, met herplantplicht ",1936,0.9381,12,0.0,Non-productive land assumption,0.0,False,Zero-output class
+Integrated,Bouwland,Haver ,238,0.7449,1,1630.0,WUR SO-2020,1214.19,True,Direct crop match
+Integrated,Landschapselement,Bosje,2642,0.728,18,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Integrated,Bouwland,"Wikke, voeder-",803,0.7151,1,1050.0,Proxy: forage crop,750.85,False,Related-crop proxy
+Integrated,Landschapselement,Stroken wild gras,6807,0.493,23,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Integrated,Bouwland,"Klaver, rode, klaverzaad",6763,0.4467,1,1800.0,Area-weighted median proxy for Bouwland,804.06,False,Category-median proxy
+Integrated,Landschapselement,Struweelrand,2629,0.3928,7,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Integrated,Landschapselement,Poel en klein historisch water,2620,0.3735,13,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Integrated,Landschapselement,Boomgroep,2617,0.3455,7,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Integrated,Bouwland,"Tarwe, zomer-",234,0.3241,2,1810.0,WUR SO-2020,586.62,False,Direct crop match
+Integrated,Grasland,"Grasland, natuurlijk. Hoofdfunctie natuur.",332,0.2765,5,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Integrated,Landschapselement,Ruigtes op landbouwpercelen,6800,0.267,7,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Integrated,Bouwland,"Bonen, veld- (onder andere duiven-, paarden-, wierbonen) ",311,0.2422,1,1800.0,Area-weighted median proxy for Bouwland,435.96,False,Category-median proxy
+Integrated,Bouwland,Overige akkerbouwgewassen,1927,0.2039,1,1800.0,Area-weighted median proxy for Bouwland,367.02,False,Category-median proxy
+Integrated,Landschapselement,"Water, overig",2639,0.1518,10,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Integrated,Landschapselement,Bossingel ,2619,0.1278,6,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Integrated,Bouwland,"Rogge, groenbemesting, vanggewas",7131,0.1156,2,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Integrated,Landschapselement,Schouwpad,6801,0.0931,3,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Integrated,Landschapselement,Hakhoutbosje,2630,0.0893,1,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Integrated,Overige,"Rand, liggend op bouwland en direct grenzend aan bos. Geen landbouwproductie.",338,0.0856,1,0.0,Non-productive land assumption,0.0,False,Zero-output class
+Integrated,Bouwland,"Overige bloemen, overige bloemkwekerijgewassen",991,0.0448,1,1800.0,Area-weighted median proxy for Bouwland,80.64,False,Category-median proxy
+Integrated,Bouwland,Bos zonder herplantplicht ,863,0.036,3,1800.0,Area-weighted median proxy for Bouwland,64.8,False,Category-median proxy
+Integrated,Bouwland,Soedangras/Sorghum,3519,0.0347,1,1800.0,Proxy: forage maize,62.46,False,Related-crop proxy
+Integrated,Bouwland,"Bonen, tuin- (groen te oogsten) ",854,0.0329,1,1800.0,Area-weighted median proxy for Bouwland,59.22,False,Category-median proxy
+Integrated,Landschapselement,"Landschapselement, overig",2638,0.0311,3,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Integrated,Landschapselement,Elzensingel,2622,0.023,1,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Integrated,Landschapselement,Struweelhaag,2625,0.0197,2,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Integrated,Bouwland,"Overige gras, groenbemesting, vanggewas",7126,0.0008,1,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Integrated,Landschapselement,Natuurvriendelijke oever,2634,0.0006,1,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Integrated,Landschapselement,Laan,2626,0.0002,1,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Grasland,"Grasland, blijvend ",265,416.8037,2336,1250.0,WUR SO-2020,521004.62,True,Direct crop match
+Patch enlargement,Bouwland,"Mais, snij-",259,163.7449,737,1800.0,WUR SO-2020,294740.82,True,Direct crop match
+Patch enlargement,Grasland,"Grasland, tijdelijk ",266,122.4478,657,1250.0,WUR SO-2020,153059.75,True,Direct crop match
+Patch enlargement,Bouwland,"Rogge, korrelgewas",7130,25.4847,47,1160.0,WUR SO-2020,29562.25,True,Direct crop match
+Patch enlargement,Grasland,"Grasland, natuurlijk. Met landbouwactiviteiten. ",331,25.218,514,374.0,WUR SO-2020,9431.53,True,Direct crop match
+Patch enlargement,Landschapselement,Sloot,343,12.5618,1394,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Bouwland,"Groene braak, spontane opkomst",6794,11.181,256,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Patch enlargement,Landschapselement,Houtwal en houtsingel,2621,9.9133,463,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Grasland,Agrarisch natuurmengsel,1926,9.8194,232,4360.0,WUR SO-2020,42812.58,True,Direct crop match
+Patch enlargement,Bouwland,"Aardappelen, consumptie",2014,8.7112,24,8620.0,WUR SO-2020,75090.54,True,Direct crop match
+Patch enlargement,Bouwland,"Aardappelen, zetmeel ",2017,8.0455,16,4030.0,WUR SO-2020,32423.36,True,Direct crop match
+Patch enlargement,Bouwland,"Mais, corncob mix ",317,7.6757,19,1430.0,WUR SO-2020,10976.25,True,Direct crop match
+Patch enlargement,Bouwland,"Bieten, suiker-",256,7.164,19,3440.0,WUR SO-2020,24644.16,True,Direct crop match
+Patch enlargement,Natuurterrein,Natuurterreinen (incl. heide),335,6.2111,172,0.0,Non-productive land assumption,0.0,False,Zero-output class
+Patch enlargement,Bouwland,"Lelie, bloembollen en -knollen",1002,5.525,17,36000.0,WUR SO-2020,198900.0,True,Direct crop match
+Patch enlargement,Bouwland,"Granen, overig",2652,5.3261,16,1530.0,Proxy: summer barley,8148.93,False,Related-crop proxy
+Patch enlargement,Bouwland,"Gerst, zomer-",236,4.8347,27,1530.0,WUR SO-2020,7397.09,False,Direct crop match
+Patch enlargement,Bouwland,Luzerne ,258,4.184,21,1050.0,WUR SO-2020,4393.2,True,Direct crop match
+Patch enlargement,Bouwland,"Mais, korrel-",316,3.957,21,1680.0,WUR SO-2020,6647.76,True,Direct crop match
+Patch enlargement,Bouwland,"Wikke, voeder-",803,2.865,4,1050.0,Proxy: forage crop,3008.25,False,Related-crop proxy
+Patch enlargement,Bouwland,"Italiaans raaigras, groenbemesting, vanggewas",6755,2.3915,10,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Patch enlargement,Landschapselement,Bosje,2642,2.2081,71,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Bouwland,"Bieten, voeder-",257,2.1893,9,1800.0,Proxy: forage maize,3940.74,False,Related-crop proxy
+Patch enlargement,Bouwland,Miscanthus (olifantsgras) ,516,2.1804,4,1170.0,Proxy: energy maize,2551.07,False,Related-crop proxy
+Patch enlargement,Bouwland,"Tarwe, winter-",233,2.1581,10,2390.0,WUR SO-2020,5157.86,False,Direct crop match
+Patch enlargement,Bouwland,"Uien, gele zaai-",6660,2.0305,6,8100.0,WUR SO-2020,16447.05,True,Direct crop match
+Patch enlargement,Bouwland,Triticale ,314,1.9903,6,1280.0,WUR SO-2020,2547.58,True,Direct crop match
+Patch enlargement,Bouwland,"Tarwe, zomer-",234,1.8262,11,1810.0,WUR SO-2020,3305.42,False,Direct crop match
+Patch enlargement,Bouwland,"Sierconiferen, open grond",1074,1.7673,6,1800.0,Area-weighted median proxy for Bouwland,3181.14,False,Category-median proxy
+Patch enlargement,Landschapselement,Stroken wild gras,6807,1.7521,73,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Bouwland,"Aardappelen, poot NAK",2015,1.7287,6,11700.0,WUR SO-2020,20225.79,True,Direct crop match
+Patch enlargement,Bouwland,"Lelie, overige bloemkwekerijgewassen",979,1.6977,2,36000.0,Proxy: lily production,61117.2,False,Related-crop proxy
+Patch enlargement,Bouwland,Erwten (droog te oogsten),308,1.5121,6,1800.0,Area-weighted median proxy for Bouwland,2721.78,False,Category-median proxy
+Patch enlargement,Grasland,"Grasland, natuurlijk. Hoofdfunctie natuur.",332,1.3737,18,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Patch enlargement,Bouwland,"Gerst, winter-",235,1.3293,8,1950.0,WUR SO-2020,2592.13,False,Direct crop match
+Patch enlargement,Bouwland,"Asperges, oppervlakte die productie oplevert",2710,1.1749,5,1800.0,Area-weighted median proxy for Bouwland,2114.82,False,Category-median proxy
+Patch enlargement,Overige,"Bos, blijvend, met herplantplicht ",1936,1.1542,14,0.0,Non-productive land assumption,0.0,False,Zero-output class
+Patch enlargement,Bouwland,"Koolraap, productie",2737,0.9886,1,1800.0,Area-weighted median proxy for Bouwland,1779.48,False,Category-median proxy
+Patch enlargement,Bouwland,"Uien, poot en plant, 1e jaars ",1932,0.8012,3,8100.0,Proxy: field onions,6489.72,False,Related-crop proxy
+Patch enlargement,Bouwland,Haver ,238,0.7273,1,1630.0,WUR SO-2020,1185.5,True,Direct crop match
+Patch enlargement,Bouwland,"Bonen, veld- (onder andere duiven-, paarden-, wierbonen) ",311,0.7213,8,1800.0,Area-weighted median proxy for Bouwland,1298.34,False,Category-median proxy
+Patch enlargement,Landschapselement,Struweelrand,2629,0.6677,30,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Bouwland,Sedum,6802,0.6213,3,1800.0,Area-weighted median proxy for Bouwland,1118.34,False,Category-median proxy
+Patch enlargement,Landschapselement,Poel en klein historisch water,2620,0.6149,42,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Landschapselement,Bossingel ,2619,0.5694,25,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Bouwland,"Mais, energie-",2032,0.5333,1,1170.0,WUR SO-2020,623.96,True,Direct crop match
+Patch enlargement,Bouwland,Drachtplanten,657,0.4861,6,1800.0,Area-weighted median proxy for Bouwland,874.98,False,Category-median proxy
+Patch enlargement,Bouwland,"Aardbeien op stellingen, productie",2706,0.4405,1,1800.0,Area-weighted median proxy for Bouwland,792.9,False,Category-median proxy
+Patch enlargement,Landschapselement,Boomgroep,2617,0.4377,19,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Bouwland,Japanse haver,670,0.4083,1,1630.0,WUR SO-2020,665.53,True,Direct crop match
+Patch enlargement,Bouwland,Zonnekroon,656,0.4061,3,1800.0,Area-weighted median proxy for Bouwland,730.98,False,Category-median proxy
+Patch enlargement,Landschapselement,Ruigtes op landbouwpercelen,6800,0.3947,20,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Landschapselement,Hakhoutbosje,2630,0.3346,8,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Landschapselement,Struweelhaag,2625,0.3318,17,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Bouwland,"Italiaans raaigras, graszaad",6754,0.3235,3,1050.0,Proxy: forage crop,339.68,False,Related-crop proxy
+Patch enlargement,Bouwland,"Pioenroos, vermeerdering",1054,0.2901,1,1800.0,Area-weighted median proxy for Bouwland,522.18,False,Category-median proxy
+Patch enlargement,Landschapselement,Natuurvriendelijke oever,2634,0.2706,13,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Bouwland,Soedangras/Sorghum,3519,0.2661,3,1800.0,Proxy: forage maize,478.98,False,Related-crop proxy
+Patch enlargement,Bouwland,Bos zonder herplantplicht ,863,0.2657,11,1800.0,Area-weighted median proxy for Bouwland,478.26,False,Category-median proxy
+Patch enlargement,Bouwland,Spelt,382,0.2413,3,1350.0,WUR SO-2020,325.76,True,Direct crop match
+Patch enlargement,Landschapselement,Rietkraag/rietzoom,7128,0.2322,7,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Bouwland,"Hennep, vezel-",944,0.223,1,1800.0,Area-weighted median proxy for Bouwland,401.4,False,Category-median proxy
+Patch enlargement,Bouwland,"Laanbomen/parkbomen, opzetters, open grond",1071,0.2205,1,1800.0,Area-weighted median proxy for Bouwland,396.9,False,Category-median proxy
+Patch enlargement,Bouwland,"Pompoen, productie",2735,0.2199,1,1800.0,Area-weighted median proxy for Bouwland,395.82,False,Category-median proxy
+Patch enlargement,Bouwland,"Klaver, rode, klaverzaad",6763,0.2069,2,1800.0,Area-weighted median proxy for Bouwland,372.42,False,Category-median proxy
+Patch enlargement,Landschapselement,"Landschapselement, overig",2638,0.1927,9,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Bouwland,"Gladiool, bloembollen en - knollen",998,0.1858,1,1800.0,Area-weighted median proxy for Bouwland,334.44,False,Category-median proxy
+Patch enlargement,Bouwland,Graszoden ,1921,0.1463,1,1800.0,Area-weighted median proxy for Bouwland,263.34,False,Category-median proxy
+Patch enlargement,Bouwland,Maiskolvensilage,1935,0.1234,1,1800.0,Area-weighted median proxy for Bouwland,222.12,False,Category-median proxy
+Patch enlargement,Bouwland,"Uien, rode zaai-",6664,0.11,1,8100.0,WUR SO-2020,891.0,True,Direct crop match
+Patch enlargement,Landschapselement,Laan,2626,0.1078,7,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Bouwland,"Vaste planten, open grond",1080,0.103,1,1800.0,Area-weighted median proxy for Bouwland,185.4,False,Category-median proxy
+Patch enlargement,Bouwland,"Overige gras, groenbemesting, vanggewas",7126,0.0944,6,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Patch enlargement,Landschapselement,Schouwpad,6801,0.0916,8,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Braakland,"Tijdelijk onbeteelde grond, anders dan voor publieke werken",3802,0.0908,3,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Patch enlargement,Bouwland,"Stoksnijbonen en stokslabonen, productie",2781,0.082,2,1800.0,Area-weighted median proxy for Bouwland,147.6,False,Category-median proxy
+Patch enlargement,Overige,Voedselbos,1940,0.0789,1,0.0,Non-productive land assumption,0.0,False,Zero-output class
+Patch enlargement,Bouwland,Snijgroen,1876,0.0673,1,1800.0,Area-weighted median proxy for Bouwland,121.14,False,Category-median proxy
+Patch enlargement,Landschapselement,Knip- of scheerheg,2624,0.0572,6,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Landschapselement,"Water, overig",2639,0.0534,8,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Landschapselement,Schurvelingen en zandwallen,2637,0.048,1,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Bouwland,Cichorei ,511,0.0378,1,1800.0,Area-weighted median proxy for Bouwland,68.04,False,Category-median proxy
+Patch enlargement,Bouwland,Tagetes erecta (Afrikaantje),346,0.0365,1,1800.0,Area-weighted median proxy for Bouwland,65.7,False,Category-median proxy
+Patch enlargement,Bouwland,"Overige groenbemesters, vlinderbloemige- ",426,0.0312,2,0.0,WUR SO-2020: no production,0.0,True,Direct crop match
+Patch enlargement,Bouwland,"Overige bloemen, overige bloemkwekerijgewassen",991,0.0188,1,1800.0,Area-weighted median proxy for Bouwland,33.84,False,Category-median proxy
+Patch enlargement,Landschapselement,Hoogstamboomgaard,2628,0.0122,1,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Bouwland,"Sierheesters en klimplanten, open grond",1075,0.0097,1,1800.0,Area-weighted median proxy for Bouwland,17.46,False,Category-median proxy
+Patch enlargement,Bouwland,"Winterpeen, productie",2785,0.0095,1,1800.0,Area-weighted median proxy for Bouwland,17.1,False,Category-median proxy
+Patch enlargement,Bouwland,"Klaver, witte, klaverzaad",6765,0.0081,2,1800.0,Area-weighted median proxy for Bouwland,14.58,False,Category-median proxy
+Patch enlargement,Overige,Riet,6522,0.0055,2,0.0,Area-weighted median proxy for Overige,0.0,False,Category-median proxy
+Patch enlargement,Landschapselement,Elzensingel,2622,0.0051,1,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Landschapselement,Griendje,2631,0.003,1,0.0,Non-productive landscape element,0.0,True,Direct crop match
+Patch enlargement,Overige,"Rand, liggend op bouwland en direct grenzend aan bos. Geen landbouwproductie.",338,0.0001,1,0.0,Non-productive land assumption,0.0,False,Zero-output class

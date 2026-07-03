@@ -1,0 +1,5 @@
+scenario,times_ranked_first,first_place_percent,mean_simulated_score,mean_simulated_rank,top_two_percent
+Patch enlargement,5720,57.2,0.63,1.78,76.09
+Dispersed,3444,34.44,0.59,2.08,74.47
+Integrated,836,8.36,0.46,2.46,46.06
+Connectivity focused,0,0.0,0.38,3.68,3.38

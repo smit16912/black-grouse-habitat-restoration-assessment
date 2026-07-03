@@ -1,0 +1,6 @@
+scenario,core_habitat_area_km2,number_of_patches,patch_density_per_100_km2,mean_patch_area_km2,median_patch_area_km2,largest_patch_area_km2,largest_patch_index_percent,total_edge_length_km,edge_density_m_per_ha
+baseline_2024,54.408,2570,336.883,0.0212,0.0012,13.093,1.716,1497.675,19.632
+dispersed,66.063,19058,2498.181,0.0035,0.0006,13.101,1.717,3296.4,43.21
+patch_enlargement,66.063,2290,300.18,0.0288,0.0031,13.418,1.759,1789.775,23.461
+connectivity_focused,66.063,2546,333.738,0.0259,0.0012,14.749,1.933,1633.425,21.411
+integrated_low_matrix_pressure,66.063,2574,337.408,0.0257,0.0012,13.878,1.819,1664.625,21.82

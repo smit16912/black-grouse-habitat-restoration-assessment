@@ -1,0 +1,5 @@
+scenario,ecological_score,economic_score,social_access_score,low_disturbance_score,Multifunctional_score,Nature priority_score,Production oriented_score,Multifunctional_rank,Nature priority_rank,Production oriented_rank,times_ranked_first,first_place_percent,mean_simulated_score,mean_simulated_rank,top_two_percent
+Dispersed,0.25,0.5933,0.5,1.0,0.5108,0.4968,0.5466,2,4,2,3444,34.44,0.59,2.08,74.47
+Patch enlargement,0.6163,1.0,0.8967,0.0,0.6899,0.5286,0.8026,1,2,1,5720,57.2,0.63,1.78,76.09
+Connectivity focused,0.7258,0.0,0.5,0.2879,0.4222,0.5212,0.274,4,3,4,0,0.0,0.38,3.68,3.38
+Integrated,0.7456,0.0079,0.5818,0.5048,0.4841,0.5953,0.3199,3,1,3,836,8.36,0.46,2.46,46.06

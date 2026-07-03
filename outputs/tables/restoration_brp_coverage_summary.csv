@@ -1,0 +1,5 @@
+scenario,restored_pixels,restored_area_ha,brp_overlap_area_ha,area_without_brp_ha,brp_coverage_percent,affected_brp_features
+Dispersed,18649,1165.5625,1021.9611,143.6014,87.6796,18032
+Patch enlargement,18649,1165.5625,906.1933,259.3692,77.7473,7564
+Connectivity focused,18649,1165.5625,989.1929,176.3696,84.8683,1977
+Integrated,18649,1165.5625,1075.9895,89.573,92.315,2522

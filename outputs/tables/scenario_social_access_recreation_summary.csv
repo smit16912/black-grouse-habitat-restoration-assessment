@@ -1,0 +1,5 @@
+scenario,population_within_2km_estimate,population_within_5km_estimate,population_within_10km_estimate,population_weighted_mean_distance_m,restoration_within_250m_percent,restoration_within_500m_percent,restoration_within_1000m_percent,potential_parking_access_within_500m,potential_parking_access_within_1000m,population_access_rank,population_distance_rank,network_access_rank,lowest_disturbance_rank
+Dispersed,200377,328588,524337,3980.2,35.66,65.94,92.28,215,312,1,1,4,1
+Patch enlargement,172393,310671,520876,4375.9,48.2,77.9,96.52,70,175,2,2,2,4
+Connectivity focused,66331,178859,348230,8067.7,44.59,79.04,99.74,9,33,4,4,1,3
+Integrated,87184,232153,476842,5739.7,41.87,76.52,99.55,10,38,3,3,3,2
