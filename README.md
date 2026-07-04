@@ -1,20 +1,36 @@
-# Black Grouse 2030: Ecological Restoration and Multi-Objective Land-Use Assessment
+# Black Grouse Habitat Restoration Assessment under Alternative Land-Use Scenarios
+
+A spatially explicit assessment of habitat restoration, landscape connectivity, agricultural opportunity costs, social accessibility and policy trade-offs in and around Sallandse Heuvelrug National Park, the Netherlands.
+
+<p align="center">
+  <img src="outputs/figures/baseline_2024_and_2030_restoration_scenarios.png"
+       alt="Baseline 2024 and alternative 2030 restoration scenarios"
+       width="100%">
+</p>
+
+<p align="center">
+  <em>The 2024 land-use baseline and four equal-area habitat-restoration strategies evaluated for 2030.</em>
+</p>
 
 ## Project overview
 
-This Python/Jupyter project evaluates historical land-use change and alternative 2030 habitat-restoration strategies for Black Grouse habitat in and around Sallandse Heuvelrug National Park, the Netherlands.
+This Python/Jupyter project evaluates how alternative spatial allocations of habitat restoration influence ecological, economic and social outcomes.
 
 The project combines:
 
 - historical land-use change;
-- habitat amount, fragmentation, and connectivity;
-- spatially explicit restoration allocation;
+- habitat amount and fragmentation;
+- habitat-network connectivity;
+- spatial restoration suitability;
 - agricultural opportunity costs;
 - population accessibility and recreation;
-- recreation–conservation disturbance exposure;
-- multi-objective scenario ranking under alternative policy priorities.
+- recreation-related disturbance exposure;
+- multi-objective scenario assessment;
+- policy-weight sensitivity analysis.
 
-The ecological study area consists of the national park and a 5 km surrounding buffer, covering **762.88 km²**. A larger social-analysis extent was created by adding a further 10 km buffer around the ecological study area.
+The ecological study area consists of Sallandse Heuvelrug National Park and a 5 km surrounding buffer, covering **762.88 km²**.
+
+A larger social-analysis extent was created by adding a further 10 km buffer around the ecological study area.
 
 ## Central analytical message
 
@@ -22,52 +38,53 @@ Core-habitat area increased substantially between 1990 and 2024, but patch numbe
 
 > An increase in habitat amount does not necessarily represent an improvement in habitat-network integrity.
 
-The four equal-area restoration scenarios further demonstrate that spatial configuration strongly affects ecological outcomes. When agricultural opportunity costs, social accessibility, and disturbance exposure are included, the ecologically strongest strategy is not automatically the strongest under every policy objective.
+The four equal-area restoration scenarios further demonstrate that identical habitat amounts can produce very different spatial configurations, connectivity outcomes, agricultural costs, accessibility benefits and disturbance risks.
+
+The preferred scenario therefore depends on the relative priority given to ecological restoration, agricultural production, social accessibility and disturbance avoidance.
 
 ## Research questions
 
-1. How did land-use composition change between 1990, 2012, and 2024?
-2. How did core-habitat amount, patch configuration, and fragmentation change during this period?
-3. How do equal-area 2030 restoration strategies differ in habitat configuration and connectivity?
+1. How did land-use composition change between 1990, 2012 and 2024?
+2. How did core-habitat amount, patch structure and fragmentation change during this period?
+3. How do equal-area 2030 restoration strategies differ in landscape configuration and connectivity?
 4. How much registered agricultural land and annual agricultural Standard Output would each strategy displace?
-5. How do the scenarios differ in potential population access, proximity to recreation infrastructure, and disturbance exposure?
-6. Which scenarios perform best under nature-priority, multifunctional, and production-oriented policy contexts?
+5. How do the scenarios differ in population accessibility, recreation-network proximity and disturbance exposure?
+6. Which scenarios perform best under nature-priority, multifunctional and production-oriented policy contexts?
 7. How robust are the scenario rankings when policy weights change?
 
-## Study area
+## Study area and analytical settings
 
-The ecological analysis covers Sallandse Heuvelrug National Park and a 5 km buffer.
-
-- National park area: **252.99 km²**
-- Total ecological study area: **762.88 km²**
-- Coordinate reference system: **EPSG:28992**
-- Ecological analysis resolution: **25 m**
-- Social analysis: additional **10 km extension** around the ecological study area
+- **Study area:** Sallandse Heuvelrug National Park and a 5 km buffer
+- **National park area:** 252.99 km²
+- **Total ecological study area:** 762.88 km²
+- **Coordinate reference system:** EPSG:28992
+- **Ecological raster resolution:** 25 m
+- **Social-analysis extension:** additional 10 km around the ecological study area
 
 ## Input datasets
 
 ### Land use and habitat
 
-- **1990:** HGN1990
-- **2012:** LGN7
-- **2024:** LGN2024
+- **HGN1990**
+- **LGN7, 2012**
+- **LGN2024**
 
 ### Agricultural opportunity costs
 
 - **BRP Gewaspercelen 2024 Definitief**
-- Crop-specific and proxy **Standard Output 2020** coefficients
+- **Standard Output 2020 coefficients**
 
-### Social accessibility and recreation
+### Population and recreation
 
 - **CBS Vierkantstatistieken 100 m, 2024**
 - **TOP10NL Wegdeel lijn**
 - **TOP10NL Wegdeel vlak**
 
-All datasets were transformed to or analysed in **EPSG:28992**.
+All spatial datasets were transformed to or analysed in **EPSG:28992**.
 
 ## Harmonised land-use classification
 
-The original HGN and LGN classes were harmonised into five common categories:
+The HGN and LGN land-use classes were harmonised into five common categories:
 
 | Value | Harmonised class |
 |---:|---|
@@ -77,30 +94,40 @@ The original HGN and LGN classes were harmonised into five common categories:
 | 4 | Urban and infrastructure |
 | 5 | Water |
 
-All three land-use datasets were aligned to the same 25 m raster grid and masked to an identical ecological-analysis extent.
+All three land-use datasets were aligned to the same 25 m raster grid and masked to an identical analysis extent.
 
 ## Workflow
 
 | Notebook | Purpose |
 |---|---|
-| `01_setup_and_inspect_data.ipynb` | Inspect inputs and create the 5 km ecological study-area buffer |
-| `02_harmonise_landuse.ipynb` | Clip, align, reclassify, mask, and validate land-use rasters |
-| `03_observed_landuse_change.ipynb` | Analyse land-use transitions and core-habitat persistence, gains, and losses |
-| `04_landscape_metrics.ipynb` | Calculate habitat amount and fragmentation metrics |
-| `05_restoration_suitability.ipynb` | Calculate restoration-suitability variables |
-| `06_simulate_2030_scenarios.ipynb` | Simulate four equal-area restoration scenarios |
-| `07_connectivity_analysis.ipynb` | Compare habitat-network connectivity across gap distances |
-| `08_compare_scenarios.ipynb` | Combine landscape, connectivity, and suitability indicators |
-| `09_create_figures.ipynb` | Produce ecological portfolio figures |
-| `10_economic_opportunity_costs.ipynb` | Estimate affected crop areas and agricultural Standard Output displaced |
-| `11_social_access_and_recreation.ipynb` | Evaluate population access, recreation-network proximity, and disturbance exposure |
-| `12_multiobjective_assessment.ipynb` | Integrate ecological, economic, social, and disturbance indicators |
+| [`01_setup_and_inspect_data.ipynb`](01_setup_and_inspect_data.ipynb) | Inspect input datasets and create the ecological study-area buffer |
+| [`02_harmonise_landuse.ipynb`](02_harmonise_landuse.ipynb) | Clip, align, reclassify, mask and validate land-use rasters |
+| [`03_observed_landuse_change.ipynb`](03_observed_landuse_change.ipynb) | Analyse land-use transitions and habitat persistence, gain and loss |
+| [`04_landscape_metrics.ipynb`](04_landscape_metrics.ipynb) | Calculate habitat amount and fragmentation metrics |
+| [`05_restoration_suitability.ipynb`](05_restoration_suitability.ipynb) | Calculate restoration-suitability variables |
+| [`06_simulate_2030_scenarios.ipynb`](06_simulate_2030_scenarios.ipynb) | Generate four equal-area restoration scenarios |
+| [`07_connectivity_analysis.ipynb`](07_connectivity_analysis.ipynb) | Compare habitat-network connectivity across gap distances |
+| [`08_compare_scenarios.ipynb`](08_compare_scenarios.ipynb) | Combine landscape, connectivity and suitability indicators |
+| [`09_create_figures.ipynb`](09_create_figures.ipynb) | Produce ecological maps and figures |
+| [`10_economic_opportunity_costs.ipynb`](10_economic_opportunity_costs.ipynb) | Estimate agricultural areas and Standard Output displaced |
+| [`11_social_access_and_recreation.ipynb`](11_social_access_and_recreation.ipynb) | Evaluate population access, recreation proximity and disturbance exposure |
+| [`12_multiobjective_assessment.ipynb`](12_multiobjective_assessment.ipynb) | Integrate ecological, economic, social and disturbance indicators |
 
 ---
 
-## Part I: Historical landscape change and ecological restoration
+# Part I — Historical landscape change
 
-## Observed land-use change
+## Spatial land-use patterns
+
+<p align="center">
+  <img src="outputs/figures/harmonised_landuse_1990_2012_2024.png"
+       alt="Harmonised land use in 1990, 2012 and 2024"
+       width="100%">
+</p>
+
+<p align="center">
+  <em>Harmonised land-use patterns in 1990, 2012 and 2024.</em>
+</p>
 
 Core-habitat area increased throughout the study period:
 
@@ -112,18 +139,40 @@ Core-habitat area increased throughout the study period:
 
 Between 1990 and 2024:
 
-- Core-habitat area increased by **32.90 km²**
-- Agricultural matrix decreased by **78.24 km²**
-- Urban and infrastructure increased by **52.40 km²**
-- Forest decreased by **13.67 km²**
+- core-habitat area increased by **32.90 km²**;
+- agricultural matrix decreased by **78.24 km²**;
+- urban and infrastructure increased by **52.40 km²**;
+- forest decreased by **13.67 km²**.
+
+## Core-habitat persistence, loss and gain
+
+<p align="center">
+  <img src="outputs/figures/core_habitat_change_1990_2012_2024.png"
+       alt="Observed core-habitat persistence, loss and gain"
+       width="100%">
+</p>
+
+<p align="center">
+  <em>Spatial persistence, loss and gain of the harmonised core-habitat category.</em>
+</p>
 
 Of the 1990 core habitat:
 
-- **17.44 km²** persisted until 2024
-- **4.07 km²** was lost
-- **36.97 km²** of new core habitat was identified in 2024
+- **17.44 km²** persisted until 2024;
+- **4.07 km²** was lost;
+- **36.97 km²** of new core habitat was identified in 2024.
 
-## Observed fragmentation
+## Habitat amount and fragmentation
+
+<p align="center">
+  <img src="outputs/figures/observed_core_habitat_amount_and_fragmentation.png"
+       alt="Observed change in core-habitat amount and configuration"
+       width="100%">
+</p>
+
+<p align="center">
+  <em>Percentage change in habitat amount and configuration relative to the 1990 baseline.</em>
+</p>
 
 Although core-habitat area increased, habitat configuration became more fragmented.
 
@@ -137,54 +186,100 @@ Although core-habitat area increased, habitat configuration became more fragment
 
 From 1990 to 2024:
 
-- Core-habitat area increased by **152.92%**
-- Patch number increased by **266.62%**
-- Mean patch area decreased by **30.94%**
-- Edge density increased by **241.60%**
+- core-habitat area increased by **152.92%**;
+- patch number increased by **266.62%**;
+- mean patch area decreased by **30.94%**;
+- edge density increased by **241.60%**.
 
-The results indicate that habitat expansion occurred together with increasing subdivision and edge exposure.
+The results show that habitat expansion occurred together with increasing subdivision and edge exposure.
+
+<details>
+<summary><strong>Supporting figure: observed land-use area by class</strong></summary>
+
+<br>
+
+<p align="center">
+  <img src="outputs/figures/observed_landuse_area_1990_2012_2024.png"
+       alt="Observed land-use area in 1990, 2012 and 2024"
+       width="100%">
+</p>
+
+<p align="center">
+  <em>Changes in the total area of the five harmonised land-use classes.</em>
+</p>
+
+</details>
+
+---
+
+# Part II — Restoration suitability and 2030 scenarios
 
 ## Restoration suitability
 
 Restoration candidates were restricted to agricultural-matrix pixels in the 2024 land-use raster.
 
-The suitability analysis included:
+The suitability assessment combined:
 
 - proximity to existing core habitat;
-- distance from urban and infrastructure;
+- distance from urban areas and infrastructure;
 - surrounding core-habitat proportion within 1 km;
 - surrounding urban proportion within 1 km.
 
-The four components were standardised from 0 to 1 and combined using equal weights.
+The four components were standardised between 0 and 1 and combined using equal weights.
 
-## 2030 restoration scenarios
+## Equal-area restoration scenarios
 
 Each scenario restored exactly:
 
 - **18,649 pixels**
 - **11.656 km²**
+- approximately **1,165.6 ha**
 
-All four scenarios therefore contain the same total 2030 core-habitat area:
+All scenarios therefore contain the same total 2030 core-habitat area:
 
 - **66.063 km²**
 
+The four strategies were:
+
 ### Dispersed restoration
 
-Restoration pixels were selected randomly across the eligible agricultural matrix. This represents spatially uncoordinated restoration.
+Restoration pixels were selected randomly across the eligible agricultural matrix, representing spatially uncoordinated restoration.
 
 ### Patch enlargement
 
-Pixels close to existing core habitat were prioritised. This represents restoration around existing habitat boundaries.
+Pixels near existing core habitat were prioritised, representing restoration around existing habitat boundaries.
 
 ### Connectivity-focused restoration
 
-Candidate pixels within potential gaps between existing habitat patches were prioritised. This represents restoration intended to strengthen habitat-network links.
+Candidate pixels situated in potential gaps between existing habitat patches were prioritised.
 
 ### Integrated low-matrix-pressure restoration
 
-Pixels were prioritised using the combined restoration-suitability score. This strategy balances proximity to core habitat, surrounding habitat amount, distance from urban areas, and low surrounding urban pressure.
+Pixels were selected using the combined restoration-suitability score, balancing proximity to core habitat, surrounding habitat amount, distance from urban areas and low surrounding urban pressure.
 
-## Ecological scenario comparison
+## Spatial comparison of the scenarios
+
+<p align="center">
+  <img src="outputs/figures/baseline_2024_and_2030_restoration_scenarios.png"
+       alt="Baseline and equal-area 2030 restoration scenarios"
+       width="100%">
+</p>
+
+<p align="center">
+  <em>The 2024 baseline and four equal-area 2030 restoration allocations.</em>
+</p>
+
+## Landscape-configuration effects
+
+<p align="center">
+  <img src="outputs/figures/2030_scenario_landscape_configuration_comparison.png"
+       alt="Landscape-configuration differences among restoration scenarios"
+       width="100%">
+</p>
+
+<p align="center">
+  <em>Percentage change in landscape metrics relative to the 2024 baseline.</em>
+</p>
 
 | Scenario | Patches | Mean patch area | Largest patch | Edge density |
 |---|---:|---:|---:|---:|
@@ -196,18 +291,50 @@ Pixels were prioritised using the combined restoration-suitability score. This s
 
 - **Dispersed restoration** produces the greatest fragmentation and edge exposure.
 - **Patch enlargement** produces the fewest patches and largest mean patch area.
-- **Connectivity-focused restoration** produces the largest individual habitat patch and strongest intermediate-distance network structure among the structured strategies.
-- **Integrated restoration** produces the highest mean suitability and greatest mean distance from urban and infrastructure.
+- **Connectivity-focused restoration** produces the largest individual habitat patch.
+- **Integrated restoration** produces the highest mean restoration suitability and greatest mean distance from urban infrastructure.
 
-Connectivity was assessed using maximum gap distances of **0, 100, 250, 500, and 1,000 m**.
+## Habitat-network connectivity
+
+<p align="center">
+  <img src="outputs/figures/2030_scenario_connectivity_comparison.png"
+       alt="Core-habitat connectivity across gap distances"
+       width="100%">
+</p>
+
+<p align="center">
+  <em>Habitat-network components and the percentage of habitat contained in the largest network component across alternative gap-distance assumptions.</em>
+</p>
+
+Connectivity was assessed using maximum gap distances of:
+
+- 0 m;
+- 100 m;
+- 250 m;
+- 500 m;
+- 1,000 m.
+
+The dispersed scenario appears highly connected at larger gap thresholds because numerous small restoration pixels function as stepping stones. However, it simultaneously produces very high patch numbers, very small mean patch size and high edge density.
+
+Connectivity must therefore be interpreted together with habitat configuration and assumptions about species movement.
 
 ---
 
-## Part II: Socio-economic and multi-objective assessment
+# Part III — Agricultural opportunity costs
 
-## Agricultural opportunity costs
+The restoration masks were intersected with BRP 2024 agricultural parcels.
 
-The four restoration masks were intersected with BRP 2024 agricultural parcels. The analysis calculated affected area by crop type and estimated annual agricultural Standard Output displaced.
+Affected crop areas were combined with crop-specific, related-crop and category-level Standard Output coefficients to estimate the annual agricultural output displaced by each restoration strategy.
+
+<p align="center">
+  <img src="outputs/figures/scenario_agricultural_opportunity_costs.png"
+       alt="Agricultural opportunity costs of restoration scenarios"
+       width="100%">
+</p>
+
+<p align="center">
+  <em>Estimated annual agricultural Standard Output displaced by each equal-area restoration scenario.</em>
+</p>
 
 | Rank: lowest cost | Scenario | BRP coverage | Annual output displaced | Output displaced per restored ha |
 |---:|---|---:|---:|---:|
@@ -216,13 +343,29 @@ The four restoration masks were intersected with BRP 2024 agricultural parcels. 
 | 3 | Integrated | 92.32% | €2,246,921.42 | €1,927.76/ha |
 | 4 | Connectivity focused | 84.87% | €2,252,302.79 | €1,932.37/ha |
 
-**Patch enlargement** has the lowest estimated agricultural opportunity cost. **Connectivity-focused restoration** has the highest, although the integrated strategy is almost equally costly.
+**Patch enlargement** has the lowest estimated agricultural opportunity cost.
 
-![Agricultural opportunity costs](outputs/figures/scenario_agricultural_opportunity_costs.png)
+**Connectivity-focused restoration** has the highest estimated opportunity cost, although the integrated strategy is almost equally costly.
 
-## Population accessibility and recreation
+Standard Output represents standardised agricultural production value. It is not equivalent to land price, farm profit, compensation cost or total economic welfare loss.
 
-CBS 100 m population cells were used to estimate the number of residents living within 2, 5, and 10 km of restored pixels. TOP10NL walking and cycling infrastructure was used to calculate restoration proximity to recreation networks.
+---
+
+# Part IV — Social accessibility and recreation
+
+CBS 100 m population cells were used to estimate the number of residents living near restoration.
+
+TOP10NL walking and cycling infrastructure was used to calculate proximity to recreation networks and potential recreation-related disturbance exposure.
+
+<p align="center">
+  <img src="outputs/figures/scenario_social_access_disturbance_tradeoff.png"
+       alt="Potential social access and recreational-disturbance exposure"
+       width="100%">
+</p>
+
+<p align="center">
+  <em>Trade-off between nearby population exposure and the percentage of restored land situated within 250 m of mapped recreation infrastructure.</em>
+</p>
 
 | Scenario | Population within 5 km | Restoration within 500 m of recreation network | Restoration within 250 m of recreation network |
 |---|---:|---:|---:|
@@ -235,16 +378,18 @@ Interpretation:
 
 - **Dispersed restoration** reaches the largest nearby population and has the lowest close-range recreation exposure.
 - **Patch enlargement** combines high population access with strong recreation-network proximity, but also has the highest potential disturbance exposure.
-- **Connectivity-focused restoration** has the greatest share of restored land within 500 m of recreation infrastructure, but reaches the smallest population.
+- **Connectivity-focused restoration** has the greatest share of restoration within 500 m of recreation infrastructure, but reaches the smallest population.
 - **Integrated restoration** occupies an intermediate position.
 
-These indicators represent **potential accessibility and disturbance exposure**, not confirmed public access or observed visitor pressure.
+These indicators represent **potential accessibility and potential disturbance exposure**, not confirmed public access, actual visitor intensity or observed disturbance.
 
-![Social access and disturbance trade-off](outputs/figures/scenario_social_access_disturbance_tradeoff.png)
+---
 
-## Dimension scores
+# Part V — Multi-objective scenario assessment
 
-Indicators were standardised from 0 to 1 so that higher scores consistently represent better performance.
+## Standardised dimension scores
+
+Indicators were standardised from 0 to 1 so that higher values consistently represent better performance.
 
 | Scenario | Ecological | Economic | Social access | Low disturbance |
 |---|---:|---:|---:|---:|
@@ -253,7 +398,17 @@ Indicators were standardised from 0 to 1 so that higher scores consistently repr
 | Connectivity focused | 0.7258 | 0.0000 | 0.5000 | 0.2879 |
 | Integrated | 0.7456 | 0.0079 | 0.5818 | 0.5048 |
 
-## Policy-context rankings
+## Alternative policy priorities
+
+<p align="center">
+  <img src="outputs/figures/scenario_policy_context_comparison.png"
+       alt="Scenario performance under alternative policy priorities"
+       width="100%">
+</p>
+
+<p align="center">
+  <em>Weighted performance of the restoration scenarios under nature-priority, multifunctional and production-oriented policy contexts.</em>
+</p>
 
 | Scenario | Nature priority | Multifunctional | Production oriented |
 |---|---:|---:|---:|
@@ -262,16 +417,24 @@ Indicators were standardised from 0 to 1 so that higher scores consistently repr
 | Integrated | 1 | 3 | 3 |
 | Patch enlargement | 2 | 1 | 1 |
 
-- **Integrated restoration** ranks first under a nature-priority context.
+- **Integrated restoration** ranks first under nature-priority weighting.
 - **Patch enlargement** ranks first under multifunctional and production-oriented priorities.
 - **Dispersed restoration** ranks second under multifunctional and production-oriented priorities.
-- **Connectivity-focused restoration** performs strongly ecologically but is constrained by high agricultural opportunity cost.
-
-![Policy-context comparison](outputs/figures/scenario_policy_context_comparison.png)
+- **Connectivity-focused restoration** performs strongly ecologically but is constrained by its high agricultural opportunity cost.
 
 ## Weight-sensitivity analysis
 
-Scenario robustness was evaluated using **10,000 random policy-weight combinations**.
+Scenario robustness was tested using **10,000 random policy-weight combinations**.
+
+<p align="center">
+  <img src="outputs/figures/scenario_weight_sensitivity.png"
+       alt="Robustness of scenario rankings to policy weights"
+       width="100%">
+</p>
+
+<p align="center">
+  <em>Percentage of random policy-weight combinations under which each scenario ranked first.</em>
+</p>
 
 | Scenario | First-place frequency | Mean simulated rank | Top-two frequency |
 |---|---:|---:|---:|
@@ -280,38 +443,65 @@ Scenario robustness was evaluated using **10,000 random policy-weight combinatio
 | Integrated | 8.36% | 2.46 | 46.06% |
 | Connectivity focused | 0.00% | 3.68 | 3.38% |
 
-**Patch enlargement** is the most robust overall strategy across changing policy weights. **Integrated restoration** becomes preferred when ecological performance receives dominant weight. **Connectivity-focused restoration** does not rank first because its ecological gains are offset by its economic and social-access performance in the selected multi-objective framework.
+**Patch enlargement** is the most robust overall strategy across changing policy weights.
 
-![Weight-sensitivity analysis](outputs/figures/scenario_weight_sensitivity.png)
+**Integrated restoration** becomes preferred when ecological performance receives dominant weight.
 
-## Main conclusion
+**Connectivity-focused restoration** does not rank first in the random-weight assessment because its ecological strengths are offset by its economic and social-access performance.
+
+---
+
+# Main conclusion
 
 The project demonstrates that habitat-restoration planning cannot be evaluated using habitat area alone.
 
-Historical habitat expansion occurred together with increasing fragmentation. The equal-area 2030 scenarios also produced substantially different habitat configurations, agricultural opportunity costs, accessibility benefits, and disturbance exposure.
+Historical habitat expansion occurred together with increasing fragmentation. The four equal-area 2030 scenarios also produced substantially different habitat configurations, connectivity outcomes, agricultural opportunity costs, accessibility benefits and disturbance exposure.
 
 The preferred strategy depends on policy priorities:
 
 - **Integrated restoration** performs best under nature-priority weighting.
-- **Patch enlargement** is the strongest multifunctional and production-oriented strategy and is the most robust across random weight combinations.
+- **Patch enlargement** is the strongest multifunctional and production-oriented strategy and the most robust across random policy weights.
 - **Dispersed restoration** provides high population accessibility and low close-range recreation exposure but produces poor habitat configuration.
 - **Connectivity-focused restoration** provides strong ecological connectivity outcomes but has the highest estimated agricultural opportunity cost.
 
-The results support spatially explicit, multi-objective restoration planning that evaluates ecological condition, economic trade-offs, social accessibility, and conservation disturbance together.
+The results support spatially explicit, multi-objective restoration planning that evaluates ecological outcomes, economic trade-offs, social accessibility and conservation disturbance together.
+
+## Key outputs
+
+### Integrated assessment
+
+- [Final multi-objective scenario assessment](outputs/tables/final_multiobjective_scenario_assessment.csv)
+- [Policy-context rankings](outputs/tables/scenario_policy_context_rankings.csv)
+- [Weight-sensitivity analysis](outputs/tables/scenario_weight_sensitivity.csv)
+- [Standardised dimension scores](outputs/tables/scenario_dimension_scores.csv)
+
+### Ecological assessment
+
+- [Complete ecological scenario comparison](outputs/tables/2030_scenario_comparison_complete.csv)
+- [Scenario landscape metrics](outputs/tables/2030_scenario_landscape_metrics.csv)
+- [Connectivity across gap distances](outputs/tables/core_habitat_connectivity_by_gap_distance.csv)
+
+### Economic assessment
+
+- [Agricultural opportunity-cost results](outputs/tables/scenario_agricultural_opportunity_costs.csv)
+- [Economic scenario ranking](outputs/tables/scenario_economic_cost_ranking.csv)
+- [Restoration area by crop and Standard Output](outputs/tables/restoration_area_by_crop_with_so.csv)
+- [BRP coverage summary](outputs/tables/restoration_brp_coverage_summary.csv)
+
+### Social assessment
+
+- [Social-access and recreation summary](outputs/tables/scenario_social_access_recreation_summary.csv)
 
 ## Repository structure
 
 ```text
-BlackGrouse_2030/
+black-grouse-habitat-restoration-assessment/
 │
 ├── data/
-│   ├── raw/
-│   ├── external/
-│   └── processed/
+│   └── README.md
 │
 ├── outputs/
 │   ├── figures/
-│   ├── maps/
 │   └── tables/
 │
 ├── 01_setup_and_inspect_data.ipynb
@@ -326,47 +516,47 @@ BlackGrouse_2030/
 ├── 10_economic_opportunity_costs.ipynb
 ├── 11_social_access_and_recreation.ipynb
 ├── 12_multiobjective_assessment.ipynb
+├── requirements.txt
+├── LICENSE
 └── README.md
 ```
-
-## Python packages
-
-The workflow uses:
-
-- `pathlib`
-- `numpy`
-- `pandas`
-- `rasterio`
-- `geopandas`
-- `shapely`
-- `matplotlib`
-- `scipy`
-- `requests`
 
 ## Reproducibility
 
 Run notebooks sequentially from `01` to `12`.
 
-- Notebooks `01–09` generate the ecological baseline, restoration scenarios, and ecological indicators.
-- Notebook `10` calculates agricultural opportunity costs.
-- Notebook `11` calculates population accessibility, recreation-network proximity, and disturbance exposure.
+- Notebooks `01–09` generate the ecological baseline, restoration scenarios and ecological indicators.
+- Notebook `10` estimates agricultural opportunity costs.
+- Notebook `11` calculates population accessibility, recreation proximity and disturbance exposure.
 - Notebook `12` integrates all indicators and performs policy-weight and sensitivity analyses.
 
-The dispersed scenario uses a fixed random seed of `42`. The weight-sensitivity analysis also uses a fixed random seed of `42`.
+The dispersed scenario uses a fixed random seed of `42`.
 
-Large national datasets are not intended to be stored in the repository. The README or a separate data guide should document their providers, required filenames, coordinate reference system, and preparation steps.
+The weight-sensitivity analysis also uses a fixed random seed of `42`.
+
+Required Python packages are listed in [`requirements.txt`](requirements.txt).
+
+## Data availability
+
+The complete HGN, LGN, BRP, CBS and TOP10NL datasets are not redistributed through this repository because of file size, licensing conditions and external distribution arrangements.
+
+Dataset requirements and preparation details are documented in [`data/README.md`](data/README.md).
 
 ## Limitations
 
-- The scenarios are spatial restoration alternatives, not predictions of future land-use change.
-- The harmonised core-habitat category is a landscape-scale habitat proxy.
-- Restoration suitability does not include field-measured vegetation structure, habitat quality, management intensity, or demographic Black Grouse data.
-- Connectivity results depend on the selected gap-distance thresholds.
-- Small habitat pixels may not represent functional habitat patches.
-- BRP does not cover every restored pixel; uncovered areas are reported separately.
-- Standard Output estimates include direct crop matches, transparent related-crop proxies, category-median proxies, and zero-output assumptions.
-- Standard Output represents standardised agricultural output, not land price, compensation cost, farm profit, or complete welfare loss.
-- CBS confidentiality codes were represented using lower, midpoint, and upper population estimates.
-- Population access was calculated using Euclidean distance to restoration, not travel time through a routable network.
-- TOP10NL represents mapped recreation infrastructure but does not fully capture local restrictions, seasonal closures, visitor intensity, or actual public access.
-- The multi-objective results depend on indicator selection, standardisation, and policy weights.
+- The scenarios represent spatial restoration alternatives rather than predictions of future land-use change.
+- The harmonised core-habitat category is a landscape-scale habitat proxy rather than a direct measurement of Black Grouse occupancy or habitat quality.
+- Restoration suitability does not include field-measured vegetation structure, management intensity or Black Grouse demographic data.
+- Connectivity results depend on the selected gap-distance assumptions.
+- Small habitat pixels may not function as viable habitat patches in practice.
+- BRP does not cover every restored pixel.
+- Standard Output is not equivalent to land price, compensation cost, farm profit or complete welfare loss.
+- Population accessibility is based on Euclidean distance rather than network travel time.
+- TOP10NL does not fully capture local access restrictions, seasonal closures, visitor intensity or actual disturbance.
+- Multi-objective rankings depend on indicator selection, standardisation and policy weights.
+
+## Licence
+
+The original Python and Jupyter workflow is available under the MIT License.
+
+Third-party datasets remain subject to the licences and terms of their respective providers and are not redistributed under the repository licence.
