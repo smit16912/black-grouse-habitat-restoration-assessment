@@ -32,15 +32,25 @@ The ecological study area consists of Sallandse Heuvelrug National Park and a 5 
 
 A larger social-analysis extent was created by adding a further 10 km buffer around the ecological study area.
 
-## Central analytical message
+## Problem statement
 
-Core-habitat area increased substantially between 1990 and 2024, but patch number and edge density also increased.
+Black Grouse conservation in the Sallandse Heuvelrug is not determined by habitat condition alone. Restoration takes place within a wider land-use system in which ecological processes, agricultural production, infrastructure, recreation, public policy and institutional responsibilities interact across multiple spatial and administrative levels.
 
-> An increase in habitat amount does not necessarily represent an improvement in habitat-network integrity.
+At the local landscape level, agriculture, buildings and infrastructure compete for space and can contribute to habitat loss, fragmentation and edge effects. The condition of heathlands, grasslands, woodlands and wetlands influences food availability, shelter, breeding habitat and movement opportunities for Black Grouse. Predation, grazing, recreation and land-management practices introduce additional pressures and trade-offs.
 
-The four equal-area restoration scenarios further demonstrate that identical habitat amounts can produce very different spatial configurations, connectivity outcomes, agricultural costs, accessibility benefits and disturbance risks.
+Restoration decisions are also shaped by actors operating at provincial, national and European levels. These include landowners, recreational users, conservation organisations, research institutions, provincial authorities, national ministries and European environmental policy frameworks. The restoration problem must therefore be understood as a coupled ecological and socio-economic land-use system rather than as an isolated habitat-mapping exercise.
 
-The preferred scenario therefore depends on the relative priority given to ecological restoration, agricultural production, social accessibility and disturbance avoidance.
+<p align="center">
+  <img src="outputs/figures/black_grouse_restoration_system_context.jpg"
+       alt="Multi-level system context of Black Grouse habitat restoration in the Sallandse Heuvelrug"
+       width="100%">
+</p>
+
+<p align="center">
+  <em>Conceptual system map showing ecological processes, competing land uses, stakeholders, governance levels and information flows influencing Black Grouse habitat restoration in the Sallandse Heuvelrug.</em>
+</p>
+
+The spatial modelling workflow operationalises selected parts of this broader system by comparing how alternative restoration allocations affect habitat amount, fragmentation, connectivity, agricultural opportunity costs, potential social accessibility and recreation-related disturbance exposure.
 
 ## Research questions
 
