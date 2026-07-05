@@ -34,38 +34,42 @@ A larger social-analysis extent was created by adding a further 10 km buffer aro
 
 ## Problem statement
 
-
 Black Grouse restoration in and around the Sallandse Heuvelrug cannot be
 evaluated solely from the total area classified as habitat. Black Grouse
-habitat use varies seasonally and among life stages, while occurrence and
-persistence are also related to landscape-scale land-use composition and the
-availability of complementary habitat types (Baines, 1994; Ludwig et al.,
-2009; Tost et al., 2022).
+habitat use varies between seasons and life stages, while occurrence and
+persistence are also associated with landscape-scale land-use patterns and
+the availability of complementary habitat types (Baines, 1994; Ludwig et al.,
+2009; Roos et al., 2016; Tost et al., 2022).
 
 Habitat structure and management are particularly important during the
-breeding period. Vegetation height and cover influence the availability of
-shelter and invertebrate food, and intensive grazing has been associated with
-reduced vegetation cover, lower invertebrate abundance and lower Black Grouse
-breeding success. Young broods also show specific associations with vegetation
-and habitat characteristics (Baines, 1996; Roos et al., 2016).
+breeding period. Higher grazing intensity has been associated with shorter
+vegetation, reduced vertical vegetation cover, lower invertebrate abundance
+and lower Black Grouse breeding success. Young broods also show specific
+associations with vegetation and habitat characteristics (Baines, 1996;
+Roos et al., 2016).
 
-Habitat degradation, loss and fragmentation caused by human land use are
-recognised threats to grouse populations. Landscape conversion, settlement
-expansion and the isolation of remaining habitat may affect Black Grouse
-occurrence, persistence and movement among subpopulations (Storch, 2000;
-Ludwig et al., 2009; Sittenthaler et al., 2018). Human recreation may create
-an additional pressure because tourism activity can influence Black Grouse
-habitat use (Tost et al., 2020).
+Habitat loss, degradation and fragmentation caused by human land use are
+recognised threats to grouse populations. Historical changes in farmland,
+forest and settlement patterns have been associated with Black Grouse
+occurrence and persistence, while habitat fragmentation may contribute to
+isolation and genetic structuring among subpopulations (Storch, 2000;
+Ludwig et al., 2009; Sittenthaler et al., 2018).
 
-At the Sallandse Heuvelrug, restoration is embedded within Natura 2000
-management and involves conservation organisations and public authorities,
-including Staatsbosbeheer, Natuurmonumenten and the Province of Overijssel.
-These local and provincial activities also sit within broader national and
-European biodiversity and nature-restoration policy frameworks (Provincie
-Overijssel, n.d.; European Parliament and Council, 2024).
+Recreation represents an additional potential pressure. GPS-tracking research
+has shown that Black Grouse avoided areas close to public routes and that the
+avoidance distance increased with the intensity of human activity
+(Tost et al., 2020).
+
+At the Sallandse Heuvelrug, restoration is undertaken within the Natura 2000
+management context. Natuurmonumenten, Staatsbosbeheer and the Province of
+Overijssel are directly involved in measures intended to conserve and
+strengthen the area's natural habitats. These activities also sit within the
+broader European nature-restoration policy framework
+(Provincie Overijssel, n.d.; European Parliament & Council of the European
+Union, 2024).
 
 The conceptual diagram represents this broader ecological, land-use and
-governance system. The quantitative analysis operationalises selected
+governance context. The quantitative analysis operationalises selected
 components of the system by comparing habitat configuration, connectivity,
 agricultural opportunity costs, potential population accessibility and
 recreation-related disturbance exposure under alternative spatial restoration
