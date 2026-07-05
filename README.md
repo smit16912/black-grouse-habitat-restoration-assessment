@@ -34,11 +34,13 @@ A larger social-analysis extent was created by adding a further 10 km buffer aro
 
 ## Problem statement
 
-Black Grouse conservation in the Sallandse Heuvelrug is not determined by habitat condition alone. Restoration takes place within a wider land-use system in which ecological processes, agricultural production, infrastructure, recreation, public policy and institutional responsibilities interact across multiple spatial and administrative levels.
+## Problem statement
 
-At the local landscape level, agriculture, buildings and infrastructure compete for space and can contribute to habitat loss, fragmentation and edge effects. The condition of heathlands, grasslands, woodlands and wetlands influences food availability, shelter, breeding habitat and movement opportunities for Black Grouse. Predation, grazing, recreation and land-management practices introduce additional pressures and trade-offs.
+Black Grouse restoration in and around the Sallandse Heuvelrug cannot be evaluated from habitat area alone. The ecological value of restoration also depends on the spatial configuration, connectivity and structural quality of the resulting habitat. Different elements of the landscape may support different seasonal and life-stage requirements, including feeding, shelter, lekking, nesting and brood rearing.
 
-Restoration decisions are also shaped by actors operating at provincial, national and European levels. These include landowners, recreational users, conservation organisations, research institutions, provincial authorities, national ministries and European environmental policy frameworks. The restoration problem must therefore be understood as a coupled ecological and socio-economic land-use system rather than as an isolated habitat-mapping exercise.
+Restoration also takes place within a landscape where agriculture, settlements, infrastructure, recreation and nature management compete for space. Changes in these land uses may influence habitat availability, fragmentation, edge exposure and the possibility of connecting existing habitat patches. Management processes and human activity may create additional ecological trade-offs, but their effects are context-dependent and are not all directly quantified in this project.
+
+Restoration planning is further embedded in decisions made by landowners, conservation organisations, provincial and national authorities, researchers and European environmental-policy institutions. The diagram therefore represents the broader conceptual system surrounding Black Grouse restoration. The quantitative analysis operationalises a selected part of this system by comparing habitat configuration, connectivity, agricultural opportunity costs, potential population accessibility and recreation-related disturbance exposure under alternative spatial restoration scenarios.
 
 <p align="center">
   <img src="outputs/figures/black_grouse_restoration_system_context.jpg"
