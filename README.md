@@ -601,3 +601,53 @@ Dataset requirements and preparation details are documented in [`data/README.md`
 The original Python and Jupyter workflow is available under the MIT License.
 
 Third-party datasets remain subject to the licences and terms of their respective providers and are not redistributed under the repository licence.
+
+## References
+
+Baines, D. (1994). Seasonal differences in habitat selection by black grouse
+*Tetrao tetrix* in the northern Pennines, England. *Ibis, 136*(1), 39–43.
+https://doi.org/10.1111/j.1474-919X.1994.tb08129.x
+
+Baines, D. (1996). The implications of grazing and predator management on
+the habitats and breeding success of black grouse *Tetrao tetrix*.
+*Journal of Applied Ecology, 33*(1), 54–62.
+https://doi.org/10.2307/2405015
+
+Ludwig, T., Storch, I., & Graf, R. F. (2009). Historic landscape change and
+habitat loss: The case of black grouse in Lower Saxony, Germany.
+*Landscape Ecology, 24*(4), 533–546.
+https://doi.org/10.1007/s10980-009-9330-3
+
+Roos, S., Donald, C., Dugan, D., Hancock, M. H., O’Hara, D., Stephen, L.,
+& Grant, M. (2016). Habitat associations of young black grouse
+*Tetrao tetrix* broods. *Bird Study, 63*(2), 203–213.
+https://doi.org/10.1080/00063657.2016.1141167
+
+Sittenthaler, M., Kunz, F., Szymusik, A., Grünschachner-Berger, V.,
+Krumböck, S., Stauffer, C., & Nopp-Mayr, U. (2018). Fine-scale genetic
+structure in an eastern Alpine black grouse *Tetrao tetrix* metapopulation.
+*Journal of Avian Biology, 49*(5), e01681.
+https://doi.org/10.1111/jav.01681
+
+Storch, I. (2000). Conservation status and threats to grouse worldwide:
+An overview. *Wildlife Biology, 6*(4), 195–204.
+https://doi.org/10.2981/wlb.2000.016
+
+Tost, D., Strauß, E., Jung, K., & Siebert, U. (2020). Impact of tourism on
+habitat use of black grouse (*Tetrao tetrix*) in an isolated population in
+northern Germany. *PLOS ONE, 15*(9), e0238660.
+https://doi.org/10.1371/journal.pone.0238660
+
+Tost, D., Ludwig, T., Strauss, E., Jung, K., & Siebert, U. (2022). Habitat
+selection of black grouse in an isolated population in northern Germany—The
+importance of mixing dry and wet habitats. *PeerJ, 10*, e14161.
+https://doi.org/10.7717/peerj.14161
+
+European Parliament & Council of the European Union. (2024). Regulation
+(EU) 2024/1991 of the European Parliament and of the Council of 24 June
+2024 on nature restoration and amending Regulation (EU) 2022/869.
+*Official Journal of the European Union*.
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1991
+
+Provincie Overijssel. (n.d.). *Sallandse Heuvelrug (Natura 2000)*.
+https://www.overijssel.nl/sallandseheuvelrug
