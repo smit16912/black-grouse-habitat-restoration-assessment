@@ -543,7 +543,6 @@ The results support spatially explicit, multi-objective restoration planning tha
 black-grouse-habitat-restoration-assessment/
 │
 ├── data/
-│   └── README.md
 │
 ├── outputs/
 │   ├── figures/
