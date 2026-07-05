@@ -34,13 +34,42 @@ A larger social-analysis extent was created by adding a further 10 km buffer aro
 
 ## Problem statement
 
-## Problem statement
 
-Black Grouse restoration in and around the Sallandse Heuvelrug cannot be evaluated from habitat area alone. The ecological value of restoration also depends on the spatial configuration, connectivity and structural quality of the resulting habitat. Different elements of the landscape may support different seasonal and life-stage requirements, including feeding, shelter, lekking, nesting and brood rearing.
+Black Grouse restoration in and around the Sallandse Heuvelrug cannot be
+evaluated solely from the total area classified as habitat. Black Grouse
+habitat use varies seasonally and among life stages, while occurrence and
+persistence are also related to landscape-scale land-use composition and the
+availability of complementary habitat types (Baines, 1994; Ludwig et al.,
+2009; Tost et al., 2022).
 
-Restoration also takes place within a landscape where agriculture, settlements, infrastructure, recreation and nature management compete for space. Changes in these land uses may influence habitat availability, fragmentation, edge exposure and the possibility of connecting existing habitat patches. Management processes and human activity may create additional ecological trade-offs, but their effects are context-dependent and are not all directly quantified in this project.
+Habitat structure and management are particularly important during the
+breeding period. Vegetation height and cover influence the availability of
+shelter and invertebrate food, and intensive grazing has been associated with
+reduced vegetation cover, lower invertebrate abundance and lower Black Grouse
+breeding success. Young broods also show specific associations with vegetation
+and habitat characteristics (Baines, 1996; Roos et al., 2016).
 
-Restoration planning is further embedded in decisions made by landowners, conservation organisations, provincial and national authorities, researchers and European environmental-policy institutions. The diagram therefore represents the broader conceptual system surrounding Black Grouse restoration. The quantitative analysis operationalises a selected part of this system by comparing habitat configuration, connectivity, agricultural opportunity costs, potential population accessibility and recreation-related disturbance exposure under alternative spatial restoration scenarios.
+Habitat degradation, loss and fragmentation caused by human land use are
+recognised threats to grouse populations. Landscape conversion, settlement
+expansion and the isolation of remaining habitat may affect Black Grouse
+occurrence, persistence and movement among subpopulations (Storch, 2000;
+Ludwig et al., 2009; Sittenthaler et al., 2018). Human recreation may create
+an additional pressure because tourism activity can influence Black Grouse
+habitat use (Tost et al., 2020).
+
+At the Sallandse Heuvelrug, restoration is embedded within Natura 2000
+management and involves conservation organisations and public authorities,
+including Staatsbosbeheer, Natuurmonumenten and the Province of Overijssel.
+These local and provincial activities also sit within broader national and
+European biodiversity and nature-restoration policy frameworks (Provincie
+Overijssel, n.d.; European Parliament and Council, 2024).
+
+The conceptual diagram represents this broader ecological, land-use and
+governance system. The quantitative analysis operationalises selected
+components of the system by comparing habitat configuration, connectivity,
+agricultural opportunity costs, potential population accessibility and
+recreation-related disturbance exposure under alternative spatial restoration
+scenarios.
 
 <p align="center">
   <img src="outputs/figures/black_grouse_restoration_system_context.jpg"
